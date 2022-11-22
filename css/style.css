@@ -1,0 +1,93 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap'); */
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/* start header */
+.header {
+	background-image: url('../img/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-size: 12px;
+	font-weight: 400;
+	letter-spacing: 0.15px;
+	color: #fff;
+}
+._container {
+	width: 1020px;
+	margin: 0 auto;
+}
+
+.header__top {
+	padding-top: 26px;
+	margin-bottom: 254px;
+}
+.header__items {
+	display: flex;
+	justify-content: space-between;
+}
+.logo {
+	margin-right: 236px;
+}
+
+.header__item {
+	font-weight: 700;
+	line-height: 22px;
+}
+.item__boarding{
+	background: url('../img/clock.svg') 0 0 no-repeat;
+	padding-left: 35px;
+	padding-top: ;
+	
+}
+.item__call-us{
+	background: url('../img/phone.svg') 0 0 no-repeat;
+	padding-left: 35px;
+}
+.item__title {
+	text-transform: uppercase;
+}
+.main-bottom{
+	padding-bottom: 312px;
+}
+.button-main__btn {
+	font-weight: 700;
+	line-height: 24px;
+	background-color: #F2726F;
+	color: #fff;
+	text-transform: uppercase;
+	width: 210px;
+	height: 40px;
+	border-radius: 10px;
+	
+}
+
+.header__title {
+	font-size: 56px;
+	line-height: 56px;
+	font-weight: 900;
+	width: 601px;
+	padding-bottom: 35px;
+}
+/* end header */
+/* start about */
+.about{
+	height: 700px;
+	background-color: #5D62B5;
+	border-radius: 33px;
+	color: #fff;
+}
+.who-we-are{
+	padding-top: 100px;
+}
+.who-we-are__logotype{
+	font-weight: 700;
+	letter-spacing: 2.5px;
+	line-height: 24px;
+}
+.about__descr{
+	padding-bottom: 35px;
+}
+.about__img{
+	border-radius: 30px;
+}
+/* end about */
