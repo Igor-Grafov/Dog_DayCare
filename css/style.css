@@ -2,6 +2,11 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+[class *= '__container']
+{
+	width: 1020px;
+  margin: 0 auto;
+}
 /* start header */
 .header {
   background-image: url("../img/header-bg.jpg");
@@ -12,10 +17,7 @@ body {
   letter-spacing: 0.15px;
   color: #fff;
 }
-._container {
-  width: 1020px;
-  margin: 0 auto;
-}
+
 
 .header__top {
   padding-top: 26px;
