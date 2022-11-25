@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -73,6 +73,7 @@ body {
   border-radius: 33px;
   color: #fff;
   padding-left: 87px;
+  
 }
 .about__top {
   position: relative;
@@ -115,7 +116,22 @@ body {
   line-height: 24px;
   margin-bottom: 54px;
 }
+.about__bottom{
+  position: relative;
+  
+}
+.about__bottom::before{
+  content: "";
+  background: url('../img/Blob_2.png') 0 0 no-repeat;
+  width: 520px;
+  height: 375px;
+  position: absolute;
+  bottom: 135px;
+  left: -45px;
+}
 .about__img {
   border-radius: 30px;
+  position: relative;
+  z-index: 100;
 }
 /* end about */
