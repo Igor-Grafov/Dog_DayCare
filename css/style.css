@@ -36,6 +36,11 @@ body {
 .titles__item_white {
   color: #fff;
 }
+
+.titles__label-white {
+  background: url("../img/mainpage/impact/icons/icon.png") 0 -2px no-repeat;
+  color: #fff;
+}
 /* start header */
 .header {
   background-image: url("../img/header-bg.jpg");
@@ -102,6 +107,7 @@ body {
   border-radius: 33px;
   color: #fff;
   padding-left: 87px;
+  margin-bottom: 230px;
 }
 .about__top {
   position: relative;
