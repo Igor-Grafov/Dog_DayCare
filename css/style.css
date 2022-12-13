@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:regular,500,700,900&display=swap");
 body {
   font-family: "Roboto", sans-serif;
+  background: #f5f5f5;
 }
 
 [class*="__container"] {
@@ -42,7 +43,7 @@ body {
   color: #fff;
 }
 /* start header */
-.header {
+/* .header {
   background-image: url("../img/header-bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -98,80 +99,63 @@ body {
   font-weight: 900;
   width: 601px;
   padding-bottom: 35px;
-}
+} */
 /* end header */
 /* start about */
 .about {
-  height: 700px;
-  background-color: #5d62b5;
-  border-radius: 33px;
-  color: #fff;
-  padding-left: 87px;
-  margin-bottom: 230px;
+  margin-bottom: 190px;
 }
-.about__top {
+.about__container {
+  background: #5d62b5;
+  border-radius: 40px;
   position: relative;
 }
-.about__top::before {
+.about__container::before {
+  position: absolute;
   content: "";
   background: url("../img/about_fon.png") 0 0 no-repeat;
   width: 201px;
   height: 317px;
-  position: absolute;
-  top: -110px;
-  right: -80px;
+  top: -109px;
+  right: -76px;
 }
-.who-we-are {
-  padding-top: 100px;
-  margin-top: -80px;
+.about__header {
+  max-width: 585px;
+  padding: 100px 0 36px 87px;
 }
-.who-we-are__logotype {
-  background: url("../img/icon.png") 0 0 no-repeat;
-  padding-left: 30px;
-  font-size: 12px;
-  padding-top: 2px;
-  align-items: center;
-  font-weight: 700;
-  letter-spacing: 2.5px;
-  line-height: 24px;
-  text-transform: uppercase;
-  margin-bottom: 33px;
-}
-.who-we-are__title {
-  width: 600px;
-  font-size: 36px;
-  font-weight: 900;
-  line-height: 42px;
-  margin-bottom: 36px;
-}
-.about__descr {
-  padding-bottom: 35px;
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 54px;
-}
-.about__bottom {
+
+.about__items {
+  padding-left: 87px;
   position: relative;
 }
-.about__bottom::before {
+.about__items::before {
+  position: absolute;
   content: "";
   background: url("../img/Blob_2.png") 0 0 no-repeat;
+  bottom: -4px;
+  left: 13px;
   width: 520px;
   height: 375px;
-  position: absolute;
-  bottom: 135px;
-  left: -45px;
 }
-.about__img {
-  border-radius: 30px;
+.about__item {
+  max-width: 845px;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.15px;
+  color: #f5f5f5;
+  padding-bottom: 54px;
+}
+.about__image {
+  margin: 0 auto;
   position: relative;
-  z-index: 100;
+}
+
+.about__image__img {
+  margin-bottom: -80px;
+  border-radius: 40px;
+  vertical-align: top;
 }
 /* end about */
-/* .titles__label-white {
-  background: url("../img/mainpage/impact/icons/icon.png") 0 -2px no-repeat;
-  color: #fff;
-} */
 /* start promise */
 .promise__header {
   margin-bottom: 68px;
